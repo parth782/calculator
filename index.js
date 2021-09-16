@@ -24,6 +24,7 @@ for( item of buttons){
                
            }
            screen.value=eval(screenvalue);
+            screenvalue=screen.value;
             
         }
         else if(buttontext=='C'){
