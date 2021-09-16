@@ -1,4 +1,4 @@
-console.log("hello");
+//console.log("hello");
 let screenvalue="";
 let screen=document.getElementById('screen');
 let buttons=document.querySelectorAll('button');
@@ -20,7 +20,7 @@ for( item of buttons){
                
             screen.value="";
                screenvalue="";
-               console.log("inside catch");
+              // console.log("inside catch");
                
            }
            screen.value=eval(screenvalue);
